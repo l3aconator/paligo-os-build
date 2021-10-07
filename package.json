@@ -1,0 +1,24 @@
+{
+  "name": "marketing-paligo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node bin/unzip.mjs zipName=319-Testing_More-html5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamsnap/marketing-paligo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamsnap/marketing-paligo/issues"
+  },
+  "homepage": "https://github.com/teamsnap/marketing-paligo#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "fs-extra": "^10.0.0"
+  }
+}
